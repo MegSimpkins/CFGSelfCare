@@ -1,22 +1,25 @@
 header {
     background-color: rgb(253, 237, 223);
     text-align: center;
-    padding: 20px;
-    font-family: 'Caveat', cursive;
+    padding: 60px;
+    font-family: 'Pacifico', cursive;
     font-size:xx-large;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
 
       /* Add a black background color to the top navigation */
 .topnav {
-    background-color;
+    background-color: white;
     overflow: hidden;
+    text-align: left;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,13 +28,13 @@ header {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(132, 200, 221);
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgb(132, 200, 221);
     color: white;
   }
 
@@ -54,6 +57,24 @@ header {
       width: 100%;
     }
   }
+
+  li {
+      
+    style="padding-left:1em"
+
+  }
+
+h1 {
+    color: black;
+    text-align: centre;
+    top: 7%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: 'Caveat', cursive;
+    font-size: 130xp;
+
+}
+
 
 .footer {
     background-color: #F1F1F1;
