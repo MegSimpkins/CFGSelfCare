@@ -1,12 +1,15 @@
-<head>
+header {
+    background-color: rgb(253, 237, 223);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+    font-size:xx-large;
+  }
 
-    <header>Self Care Weekly</header>
-
-   
 
       /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color;
     overflow: hidden;
   }
   
@@ -31,4 +34,31 @@
     background-color: #4CAF50;
     color: white;
   }
-</head>
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+
+  }
+
