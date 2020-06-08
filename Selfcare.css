@@ -1,86 +1,149 @@
-header {
-    background-color: rgb(253, 237, 223);
-    text-align: center;
-    padding: 60px;
-    font-family: 'Pacifico', cursive;
-    font-size:xx-large;
-    margin-top: 1%;
-    font-size: 50px;
-    margin-top: 3%;
+element.style {
+    display:block
+}
+
+
+.image {
+position: relative; 
+width: 100%; 
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 
 
-      /* Add a black background color to the top navigation */
+#title {
+    display: none;
+    background-color: none;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black
+  }
+
+  #title { 
+
+    position: absolute; /* To place the text on the image*/
+    top: 210px; /* The exact location of the text from the top of the image*/
+    left: 0; /* Other beautification stuff */
+    width: 100%; 
+
+  }
+
+ 
+
+
 .topnav {
     background-color: white;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
+    margin-left: 5%;
+    margin-top:2%;
   }
   
-  /* Style the links inside the navigation bar */
+
   .topnav a {
-    float: left;
+    float: centre;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+    font-family:'Sura', serif;
+    ;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(132, 200, 221);
     color: black;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
     background-color: rgb(132, 200, 221);
     color: white;
   }
 
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
-  li {
-      
-    style="padding-left:1em"
-
-  }
-
-h1 {
+.paragraphmain {
     color: black;
     text-align: centre;
-    top: 7%;
-    margin-top: 5%;
+    top: 5%;
+    margin-top: 3%;
     margin-bottom: 3%;
-    font-family: 'Caveat', cursive;
-    font-size: 130xp;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family:'Sura', serif;
+    font-size: 500xp;
 
 }
 
+h1 {
 
-.footer {
-    background-color: #F1F1F1;
+    color: black;
     text-align: center;
-    padding: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family:'Pacifico', cursive;
+    font-size: 500xp;
+}
 
-  }
+  img {
+    border-radius: 50%;
+        padding: 4px;
+        margin: auto;
+        width: 100;
+        height: 200;
+      }
 
+#paragraphsecond {
+
+    background-color: none;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100%
+    margin-bottom: 10%;
+    font-family: 'Sura', serif;
+
+}
+
+.row{
+
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+*, {
+
+    box-sizing:border-box;
+}
+
+.col-4 {
+flex: 33.33333%;
+max-width: 33.333333;
+}
+
+a:visited{
+    color: lightgrey
+}
+
+.socialmedia-icon {
+
+    width: 170px;
+    height: 170px;
+    margin-top: 60px;
+    margin-left: 145px;
+}
+
+img {
+    vertical-align:middle;
+    border-style: none;
+}
