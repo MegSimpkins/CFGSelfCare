@@ -1,0 +1,303 @@
+<!DOCTYPE html> 
+<html>
+    <head>   
+        <link rel="stylesheet" href="Selfcare.css">
+        <script src="javascript.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sura&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title" style="display: block; ">Self Care Weekly</h1>
+        <img src="plants.svg" alt="Plants" width="400" height="300" class="center">
+        
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#Tips"> Tips</a>
+            <a href="#Resources"> Resources</a>
+            <a href="#Get involved">Get Involved</a>
+        </div>
+
+        <h1 class="resourcestitle" >SelfCare Resources</h1>
+        
+        <p><strong>Are you looking for some fancy wellbeing resources to get you through this difficult time?</strong> Don't threat! You're at the right place. Here you'll find a few fantastic resources and outside links to make it even easier to look after yourself and your wellbeing. 
+        <div class="timetable">
+            <h2>SelfCare Timetable</h2>
+            <p> 
+            With thousands of employees and students suddenly finding themselves with no work or university to attend not long ago, it's easy to understand why wellbeing has become an even greater issue than ever before. If you're one of these people with nothing substantial to do at the moment, this timetable will add some vital structure to your day, helping your life to feel a little less <em> pointless. </em>
+            </p>
+
+      <!--                   Table Section                  -->
+        <div class=table   style="overflow-x:auto;">
+        <table id="table"> 
+            <tr>
+                <th> </th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+            </tr>
+
+             <tr class="main">
+                <th scope="row">9:00am</th>
+                <td colspan="5"> Wake Up & Breakfast </td>
+                <td colspan="2" rowspan="2">Lie In </td>
+            </tr>
+
+            <tr>
+                <th scope="row">10:00am</th>
+                <td>Morning Walk</td>
+                <td>  
+                    <select name="activities" id="activities">
+  <option value="run">Go for a Run</option>
+  <option value="musical">Learn an instrument</option>
+  <option value="ringafriend">Ring a friend</option>
+                    </select> 
+                </td>
+                <td>Relax with a hot drink</td>
+                <td>Morning Yoga</td>
+                <td rowspan="2">Long Walk</td>
+            </tr>
+
+            <tr>
+                <th scope="row">11:00am</th>
+                <td> 
+                    <select name="activities" id="activities">
+  <option value="run">Draw Something</option>
+  <option value="game">Play a video game</option>
+  <option value="facemask">Do a face mask</option>
+                    </select>  
+                </td>
+                <td>Read the Newspaper</td>
+                <td>Text a relative</td>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="boardgame">Play a boardgame</option>
+  <option value="bike">Bike ride</option>
+  <option value="makeup">Do your makeup</option>
+                    </select> 
+                </td>
+                <td colspan="2" rowspan="2">Brunch</td>  
+            </tr>
+
+            <tr>
+                <th scope="row">12:00pm</th>
+                <td colspan="5">Lunch</td>
+            </tr>
+
+            <tr>
+                <th scope="row">1:00pm</th>
+                <td rowspan="3"> Learn Something New </td>
+                <td>Watch a TED talk</td>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="relax">Relax</option>
+  <option value="playlist">Make a playlist</option>
+  <option value="football">Play football</option>
+                    </select> 
+                </td> 
+                <td rowspan="2"> Follow an online DIY tutorial </td>
+                <td rowspan="2"> Weekly Food Shop </td>
+                <td> Birdwatching </td>
+                <td rowspan="5">Binge Watch a Netflix Series</td>  
+            </tr>
+
+            <tr>
+                <th scope="row">2:00pm</th>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="scrapbook">Make a scrapbook</option>
+  <option value="musical">Learn an instrument</option>
+  <option value="rearrange">Rearrange your furniture</option>
+                    </select> 
+                </td>
+                <td rowspan="2">Invite friends to an Online Game </td>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="music">Listen to music</option>
+  <option value="musical">Learn an instrument</option>
+  <option value="rearrange">Rearrange your furniture</option>
+                    </select> 
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">3:00pm</th>
+                <td>Listen to Music</td>
+                <td rowspan="3">Learn Something New</td>
+                <td>Relax</td>
+                <td>Virtual Workout</td>
+            </tr>
+
+            <tr>
+                <th scope="row">4:00pm</th>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="relax">Relax</option>
+  <option value="musical">Learn an instrument</option>
+  <option value="run">Go for a run</option>
+                    </select> 
+                </td>
+                <td rowspan="2">Follow a cooking tutoiral</td>
+                <td rowspan="2">Scenic Walk</td>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="bike">Bike ride</option>
+  <option value="call">Call a friend</option>
+  <option value="youtube">Watch some youtube videos</option>
+                    </select> 
+                </td>
+                <td rowspan="2">Bake a cake</td>
+            </tr>
+
+            <tr>
+                <th scope="row">5:00pm</th>
+                <td>Read a book</td>
+                <td>Tidy</td>
+            </tr>
+
+            <tr class="main">
+                <th scope="row">6:00pm</th>
+                <td colspan="7">Dinner</th>
+            </tr>
+
+            <tr>
+                <th scope="row">7:00pm</th>
+                <td rowspan="2">Watch a movie </td>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="boardgame">Play a boardgame</option>
+  <option value="bike">Ride a bike</option>
+  <option value="makeup">Do your makeup</option>
+                    </select> 
+                </td> 
+                <td>Listen to the radio </td>
+                <td rowspan="3">Family Video Call </td>
+                <td>
+                    <select name="activities" id="activities">
+  <option value="shower">Take a shower</option>
+  <option value="tv">Watch a tv program</option>
+  <option value="makeup">Write a short story</option>
+                    </select>
+                </td>                
+                <td rowspan="3">Virtual Pub Quiz</td>
+                <td>Take a shower</td>
+            </tr>
+
+            <tr>
+                <th scope="row">8:00pm</th>
+                <td>Evening Walk</td>
+                <td> 
+                    <select name="activities" id="activities">
+  <option value="facemask">Do a facemask</option>
+  <option value="game">Play a video game</option>
+  <option value="socialmedia">Browse social media</option>
+                    </select> 
+                </td>
+                <td>Check on an old friend</td>
+                <td>Reflect on the week</td>
+            </tr>
+
+            <tr>
+                <th scope="row">9:00pm</th>
+                <td> 
+                    <select name="activities" id="activities">
+  <option value="diary">Write a diary entry</option>
+  <option value="game">Play a video game</option>
+  <option value="text">Text a friend</option>
+                    </select>
+                </td>
+                <td>Take a Bath</td>
+                <td>Read a book</td>
+                <td> 
+                    <select name="activities" id="activities">
+  <option value="candle">Light a candle</option>
+  <option value="game">Play a video game</option>
+  <option value="facemask">Do a face mask</option>
+                    </select>
+                </td>
+                <td>Skin Care Routine</td>
+            </tr>
+
+            <tr class="main">
+                <th scope="row">10:00pm</th>
+                <td colspan="7">Bedtime</td>
+            </tr>
+        </table>
+    </div>  
+</div>
+  
+    <div id="feelings">
+        <h2>How are you feeling?</h2>
+        <p>Hover your mouse over each emotion to recieve advice!</p>
+        <div class="emotion1">
+            <p>Sad</p>
+            <div class="fadedbox1">
+              <div class="title text"> It's completely normal to feel sad every now and again. Try to figure out why you're feeling this way and target the issue head on. Why not try to be positive and write down a few things that you are grateful for, or are proud of. </div>
+            </div>
+          </div>
+          <div class="emotion2">
+              <p>Anxious</p>
+              <div class="fadedbox2">
+                <div class="title text">Breathe! It's okay to be anxious, especially in the middle of a global pandemic. Why not try some online meditation sessions to ease your mind. Talking to a friend or family member about what is worrying you may also help!</div>
+              </div>
+            </div>
+          <div class="emotion3">
+              <p>Lonely</p>
+              <div class="fadedbox3">
+                <div class="title text">Everyone feels lonely at some point in their lives. Try to reach out to a friend or relative who you can trust. If this isn't possible, perhaps consider joining a group or society, whether that face to face or online, so you can start building connections with others with a similar mindset to you. </div>
+              </div>
+          </div>
+    
+    </div>
+</body>
+    
+
+    <figure id="quotes">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade" style="display: block;">
+              <img src="img1.jpg">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="img2.jpg">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="img3.jpg">
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          </figure>
+
+          <article id="resourcelinks">
+            <p>Find more resources at: </p>
+            <ul>
+              <li> <a href="https://www.mind.org.uk/information-support/tips-for-everyday-living/wellbeing/wellbeing/#:~:text=If%20you%20have%20good%20mental,with%20the%20world%20around%20you" target="_blank">Mind, Mental Health Charity</a></li>
+              <li> <a href="https://thewellbeingproject.co.uk/ourservices/wellbeing-workshops-resources/" target="_blank">The Wellbeing Project</a></li>
+              <li> <a href="https://www.harleytherapy.co.uk/self-care-a-help-guide.htm" target="_blank">Harley Therapy</a></li>
+            </ul>
+          </article>
+ 
+
+
+
+
+
+    
+  
+</html>
