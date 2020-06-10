@@ -339,7 +339,7 @@ text-align: center;
 
 .emotion1 .fadedbox1,.emotion2 .fadedbox2, .emotion3 .fadedbox3 {
   background-color: #dbfcc5;
-  color: rgb(65, 211, 52);
+  color: rgb(163, 211, 52);
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
@@ -407,7 +407,7 @@ text-align: center;
   font-weight: bold;
   font-size:18px;
 color: rgb(0, 0, 0);
-background-color:#35c499;
+background-image: linear-gradient(rgb(176, 241, 179), rgb(171, 222, 231));
 text-align:center;
 padding:30px;
 padding-top:65px;
