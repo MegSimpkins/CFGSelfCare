@@ -143,9 +143,7 @@ flex: 10%;
 max-width: 10%;
 }
 
-a:visited{
-    color: black;
-}
+
 
 .socialmedia-icon {
 
@@ -176,8 +174,8 @@ img {
     font-size: 15px;
     color: black;
     padding-left: 50px;
-    padding-top: 5px
-    text-align: .center;
+    padding-top: 5px;
+    text-align: center;
     
 }
 
@@ -393,7 +391,7 @@ text-align: center;
   transition-delay: 0.2s;
   transition-duration: 0.3s;
   position:relative;
-  bottom:80px;
+  color: rgb(0, 102, 26)
 
 }
 .emotion1:hover .title,
@@ -423,6 +421,8 @@ position:absolute;
 left:10px;
 margin-left:200px;
 font-family: 'pacifico', cursive; 
+margin-bottom:0px;
+
 
 
 }
@@ -488,6 +488,7 @@ h2{
   z-index:1;
   padding-left:50px;
   padding-top:100px;
+  margin:0px;
 }
 
 #resize {
@@ -510,11 +511,92 @@ h2{
 }
 
 footer{ 
-  height: 100px;
+  height: 300px;
   background-color: rgb(203, 247, 244);
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
   margin-top:100px;
+  text-align: center;
+}
+
+.links{
+  display: inline-block;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px white;
+  padding: 30px;
+  text-decoration: none;
+  word-spacing:50px;
+  font-family: "pacifico", cursive;
+  font-size:20px;
+
+  
+
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  height:25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram{
+  background: rgb(219, 43, 190);
+  color: white;
+}
+
+.social p{
+  font-family: "sura", serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.copyright{
+  display: block;
+}
+
+i{
+  display:block;
+}
+
+a:visited{
+  color: black;
+}
+
+.social a:visited{
+  color: white;
 }
